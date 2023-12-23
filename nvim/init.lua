@@ -19,6 +19,9 @@ require("lazy").setup({
 			"nvim-tree/nvim-web-devicons",
 			"MunifTanjim/nui.nvim"
 		}
+	},
+	{
+		"folke/tokyonight.nvim"
 	}
 })
 
@@ -30,4 +33,7 @@ require("neo-tree").setup {
 	}
 }
 
+vim.cmd[[ set number ]]
 vim.cmd[[ set background=dark ]]
+vim.cmd[[ colorscheme tokyonight-moon ]]
+vim.cmd[[ Neotree ]]
