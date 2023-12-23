@@ -33,7 +33,9 @@ require("neo-tree").setup {
 	}
 }
 
+vim.cmd[[ Lazy ]]
 vim.cmd[[ set number ]]
 vim.cmd[[ set background=dark ]]
 vim.cmd[[ colorscheme tokyonight-moon ]]
 vim.cmd[[ Neotree ]]
+vim.api.nvim_set_keymap('n', '<F8>', ':Neotree<CR>', { noremap = true, silent = true })
